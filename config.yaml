@@ -3204,24 +3204,28 @@ Artifacts:
 - SourceArtifact: registry.rancher.com/suse-observability/promtail
   Tags:
   - 2.9.15-2a5cc100
+  - 2.9.15-b617a45b-105
   TargetArtifactName: mirrored-suse-observability-agent-promtail
   TargetRepositories:
   - docker.io/rancher
 - SourceArtifact: registry.rancher.com/suse-observability/stackstate-k8s-agent
   Tags:
   - 289d9a9e
+  - b85512ad
   TargetArtifactName: mirrored-suse-observability-agent-k8s-agent
   TargetRepositories:
   - docker.io/rancher
 - SourceArtifact: registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent
   Tags:
   - 289d9a9e
+  - b85512ad
   TargetArtifactName: mirrored-suse-observability-agent-k8s-cluster-agent
   TargetRepositories:
   - docker.io/rancher
 - SourceArtifact: registry.rancher.com/suse-observability/stackstate-k8s-process-agent
   Tags:
   - 5d0ec298
+  - 5cba0f55
   TargetArtifactName: mirrored-suse-observability-agent-k8s-process-agent
   TargetRepositories:
   - docker.io/rancher
