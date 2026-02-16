@@ -22130,11 +22130,23 @@ sync:
 - source: registry.rancher.com/suse-observability/promtail:2.9.15-2a5cc100
   target: docker.io/rancher/mirrored-suse-observability-agent-promtail:2.9.15-2a5cc100
   type: image
+- source: registry.rancher.com/suse-observability/promtail:2.9.15-b617a45b-105
+  target: docker.io/rancher/mirrored-suse-observability-agent-promtail:2.9.15-b617a45b-105
+  type: image
 - source: registry.rancher.com/suse-observability/stackstate-k8s-agent:289d9a9e
   target: docker.io/rancher/mirrored-suse-observability-agent-k8s-agent:289d9a9e
   type: image
+- source: registry.rancher.com/suse-observability/stackstate-k8s-agent:b85512ad
+  target: docker.io/rancher/mirrored-suse-observability-agent-k8s-agent:b85512ad
+  type: image
 - source: registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:289d9a9e
   target: docker.io/rancher/mirrored-suse-observability-agent-k8s-cluster-agent:289d9a9e
+  type: image
+- source: registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:b85512ad
+  target: docker.io/rancher/mirrored-suse-observability-agent-k8s-cluster-agent:b85512ad
+  type: image
+- source: registry.rancher.com/suse-observability/stackstate-k8s-process-agent:5cba0f55
+  target: docker.io/rancher/mirrored-suse-observability-agent-k8s-process-agent:5cba0f55
   type: image
 - source: registry.rancher.com/suse-observability/stackstate-k8s-process-agent:5d0ec298
   target: docker.io/rancher/mirrored-suse-observability-agent-k8s-process-agent:5d0ec298

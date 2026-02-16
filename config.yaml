@@ -3224,8 +3224,8 @@ Artifacts:
   - docker.io/rancher
 - SourceArtifact: registry.rancher.com/suse-observability/stackstate-k8s-process-agent
   Tags:
-  - 5d0ec298
   - 5cba0f55
+  - 5d0ec298
   TargetArtifactName: mirrored-suse-observability-agent-k8s-process-agent
   TargetRepositories:
   - docker.io/rancher
