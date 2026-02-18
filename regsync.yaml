@@ -16853,6 +16853,9 @@ sync:
 - source: quay.io/cilium/operator-aws:v1.19.0
   target: docker.io/rancher/mirrored-cilium-operator-aws:v1.19.0
   type: image
+- source: quay.io/cilium/operator-aws:v1.19.1
+  target: docker.io/rancher/mirrored-cilium-operator-aws:v1.19.1
+  type: image
 - source: quay.io/cilium/operator-aws:v1.9.12
   target: docker.io/rancher/mirrored-cilium-operator-aws:v1.9.12
   type: image
@@ -17015,6 +17018,9 @@ sync:
 - source: quay.io/cilium/operator-aws:v1.19.0
   target: registry.suse.com/rancher/mirrored-cilium-operator-aws:v1.19.0
   type: image
+- source: quay.io/cilium/operator-aws:v1.19.1
+  target: registry.suse.com/rancher/mirrored-cilium-operator-aws:v1.19.1
+  type: image
 - source: quay.io/cilium/operator-aws:v1.9.12
   target: registry.suse.com/rancher/mirrored-cilium-operator-aws:v1.9.12
   type: image
@@ -17176,6 +17182,9 @@ sync:
   type: image
 - source: quay.io/cilium/operator-aws:v1.19.0
   target: stgregistry.suse.com/rancher/mirrored-cilium-operator-aws:v1.19.0
+  type: image
+- source: quay.io/cilium/operator-aws:v1.19.1
+  target: stgregistry.suse.com/rancher/mirrored-cilium-operator-aws:v1.19.1
   type: image
 - source: quay.io/cilium/operator-aws:v1.9.12
   target: stgregistry.suse.com/rancher/mirrored-cilium-operator-aws:v1.9.12
