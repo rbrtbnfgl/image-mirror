@@ -19793,6 +19793,9 @@ sync:
 - source: quay.io/tigera/operator:v1.40.3
   target: docker.io/rancher/mirrored-calico-operator:v1.40.3
   type: image
+- source: quay.io/tigera/operator:v1.40.7
+  target: docker.io/rancher/mirrored-calico-operator:v1.40.7
+  type: image
 - source: quay.io/tigera/operator:v1.15.1
   target: registry.suse.com/rancher/mirrored-calico-operator:v1.15.1
   type: image
@@ -19931,6 +19934,9 @@ sync:
 - source: quay.io/tigera/operator:v1.40.3
   target: registry.suse.com/rancher/mirrored-calico-operator:v1.40.3
   type: image
+- source: quay.io/tigera/operator:v1.40.7
+  target: registry.suse.com/rancher/mirrored-calico-operator:v1.40.7
+  type: image
 - source: quay.io/tigera/operator:v1.15.1
   target: stgregistry.suse.com/rancher/mirrored-calico-operator:v1.15.1
   type: image
@@ -20068,6 +20074,9 @@ sync:
   type: image
 - source: quay.io/tigera/operator:v1.40.3
   target: stgregistry.suse.com/rancher/mirrored-calico-operator:v1.40.3
+  type: image
+- source: quay.io/tigera/operator:v1.40.7
+  target: stgregistry.suse.com/rancher/mirrored-calico-operator:v1.40.7
   type: image
 - source: rancher/cluster-proportional-autoscaler:1.7.1
   target: docker.io/rancher/mirrored-cluster-proportional-autoscaler:1.7.1
