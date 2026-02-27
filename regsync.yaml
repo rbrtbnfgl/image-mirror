@@ -608,11 +608,17 @@ sync:
 - source: dp.apps.rancher.io/charts/suse-virtual-cluster-engine:1.0.1
   target: registry.suse.com/rancher/charts/appco-suse-virtual-cluster-engine:1.0.1
   type: image
+- source: dp.apps.rancher.io/charts/suse-virtual-cluster-engine:1.0.2
+  target: registry.suse.com/rancher/charts/appco-suse-virtual-cluster-engine:1.0.2
+  type: image
 - source: dp.apps.rancher.io/charts/suse-virtual-cluster-engine:1.0.0
   target: stgregistry.suse.com/rancher/charts/appco-suse-virtual-cluster-engine:1.0.0
   type: image
 - source: dp.apps.rancher.io/charts/suse-virtual-cluster-engine:1.0.1
   target: stgregistry.suse.com/rancher/charts/appco-suse-virtual-cluster-engine:1.0.1
+  type: image
+- source: dp.apps.rancher.io/charts/suse-virtual-cluster-engine:1.0.2
+  target: stgregistry.suse.com/rancher/charts/appco-suse-virtual-cluster-engine:1.0.2
   type: image
 - source: dp.apps.rancher.io/containers/alertmanager:0.28.1-12.7
   target: docker.io/rancher/appco-alertmanager:0.28.1-12.7
@@ -656,11 +662,17 @@ sync:
 - source: dp.apps.rancher.io/containers/k3k:1.0.1-1.9
   target: registry.suse.com/rancher/appco-k3k:1.0.1-1.9
   type: image
+- source: dp.apps.rancher.io/containers/k3k:1.0.2-2.3
+  target: registry.suse.com/rancher/appco-k3k:1.0.2-2.3
+  type: image
 - source: dp.apps.rancher.io/containers/k3k:1.0.0-1.1
   target: stgregistry.suse.com/rancher/appco-k3k:1.0.0-1.1
   type: image
 - source: dp.apps.rancher.io/containers/k3k:1.0.1-1.9
   target: stgregistry.suse.com/rancher/appco-k3k:1.0.1-1.9
+  type: image
+- source: dp.apps.rancher.io/containers/k3k:1.0.2-2.3
+  target: stgregistry.suse.com/rancher/appco-k3k:1.0.2-2.3
   type: image
 - source: dp.apps.rancher.io/containers/k3k-kubelet:1.0.0-1.1
   target: registry.suse.com/rancher/appco-k3k-kubelet:1.0.0-1.1
@@ -668,11 +680,17 @@ sync:
 - source: dp.apps.rancher.io/containers/k3k-kubelet:1.0.1-1.9
   target: registry.suse.com/rancher/appco-k3k-kubelet:1.0.1-1.9
   type: image
+- source: dp.apps.rancher.io/containers/k3k-kubelet:1.0.2-2.3
+  target: registry.suse.com/rancher/appco-k3k-kubelet:1.0.2-2.3
+  type: image
 - source: dp.apps.rancher.io/containers/k3k-kubelet:1.0.0-1.1
   target: stgregistry.suse.com/rancher/appco-k3k-kubelet:1.0.0-1.1
   type: image
 - source: dp.apps.rancher.io/containers/k3k-kubelet:1.0.1-1.9
   target: stgregistry.suse.com/rancher/appco-k3k-kubelet:1.0.1-1.9
+  type: image
+- source: dp.apps.rancher.io/containers/k3k-kubelet:1.0.2-2.3
+  target: stgregistry.suse.com/rancher/appco-k3k-kubelet:1.0.2-2.3
   type: image
 - source: dp.apps.rancher.io/containers/k8s-sidecar:1.30.7-11.3
   target: docker.io/rancher/appco-k8s-sidecar:1.30.7-11.3
