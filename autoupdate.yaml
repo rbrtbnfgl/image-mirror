@@ -51,10 +51,12 @@
         azure:
         - azure.enabled=true
         generic:
-        - clustermesh.useAPIServer=true
-        - envoy.enabled=true
-        - hubble.ui.enabled=true
-        - hubble.relay.enabled=true
+        - clustermesh.useAPIServer=true,
+        - envoy.enabled=true,
+        - hubble.tls.enabled=true,
+        - hubble.tls.auto.method=cronJob,
+        - hubble.ui.enabled=true,
+        - hubble.relay.enabled=true,
         - hubble.enabled=true
         - hubble.tls.auto.method=cronJob
     HelmRepo: https://helm.cilium.io
